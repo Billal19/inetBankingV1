@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="43.482" tests="7" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="JOB_NAME" value="inetBankingV1_Maven"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/Users/billalyahiaoui/.jenkins"/>
+    <property name="PATH" value="/Users/billalyahiaoui/.jenkins/tools/hudson.model.JDK/myJDK/bin:/usr/bin:/bin:/usr/sbin:/sbin"/>
+    <property name="HUDSON_SERVER_COOKIE" value="0ad20c75c1d3ef5a"/>
+    <property name="POM_ARTIFACTID" value="inetBankingV1_FrameWork"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="inetBankingV1_FrameWork"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="9.0.4+11"/>
+    <property name="user.name" value="billalyahiaoui"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="JAVA_MAIN_CLASS_509" value="Main"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="inetBankingV1_Maven"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/inetBankingV1_Maven/12/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#12"/>
+    <property name="TMPDIR" value="/var/folders/tp/5k669f890tsclhmc7qjfcxph0000gn/T/"/>
+    <property name="sun.boot.library.path" value="/Users/billalyahiaoui/.jenkins/tools/hudson.model.JDK/myJDK/lib"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.version" value="9.0.4"/>
+    <property name="XPC_FLAGS" value="0x0"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="BUILD_ID" value="12"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="SHELL" value="/bin/bash"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="/Users/billalyahiaoui/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven/conf"/>
+    <property name="java.class.version" value="53.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="java.home" value="/Users/billalyahiaoui/.jenkins/tools/hudson.model.JDK/myJDK"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.14.6"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/inetBankingV1_Maven/12/display/redirect"/>
+    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="9.0.4+11"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/inetBankingV1_Maven/display/redirect"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="JAVA_HOME" value="/Users/billalyahiaoui/.jenkins/tools/hudson.model.JDK/myJDK"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="LOGNAME" value="billalyahiaoui"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="HOME" value="/Users/billalyahiaoui"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="POM_GROUPID" value="com.guru99"/>
+    <property name="user.home" value="/Users/billalyahiaoui"/>
+    <property name="BUILD_TAG" value="jenkins-inetBankingV1_Maven-12"/>
+    <property name="JENKINS_SERVER_COOKIE" value="0ad20c75c1d3ef5a"/>
+    <property name="XPC_SERVICE_NAME" value="homebrew.mxcl.jenkins-lts"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="/Users/billalyahiaoui/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.7SU9ePfKZt/Render"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="/Users/billalyahiaoui/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /Users/billalyahiaoui/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven /Users/billalyahiaoui/.jenkins/war/WEB-INF/lib/remoting-4.3.jar /Users/billalyahiaoui/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar /Users/billalyahiaoui/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar 52389"/>
+    <property name="java.class.path" value="/Users/billalyahiaoui/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.13.jar:/Users/billalyahiaoui/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven/boot/plexus-classworlds-2.6.0.jar:/Users/billalyahiaoui/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven/conf/logging"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PATH+JDK" value="/Users/billalyahiaoui/.jenkins/tools/hudson.model.JDK/myJDK/bin"/>
+    <property name="java.vm.specification.version" value="9"/>
+    <property name="M2_HOME" value="/Users/billalyahiaoui/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.io.tmpdir" value="/var/folders/tp/5k669f890tsclhmc7qjfcxph0000gn/T/"/>
+    <property name="HUDSON_HOME" value="/Users/billalyahiaoui/.jenkins"/>
+    <property name="PATH+MAVEN" value="/Users/billalyahiaoui/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven/bin"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/inetBankingV1_Maven/12/"/>
+    <property name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.e9A62uFNxw/Listeners"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="com.apple.java.jvmTask" value="CommandLine"/>
+    <property name="__CF_USER_TEXT_ENCODING" value="0x1F5:0x0:0x0"/>
+    <property name="user.dir" value="/Users/billalyahiaoui/IdeaProjects/inetBankingV1_FrameWork"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/inetBankingV1_Maven/"/>
+    <property name="MAVEN_HOME" value="/Users/billalyahiaoui/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="12"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="maven3.interceptor" value="/Users/billalyahiaoui/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE_TMP" value="/Users/billalyahiaoui/.jenkins/workspace/inetBankingV1_Maven@tmp"/>
+    <property name="WORKSPACE" value="/Users/billalyahiaoui/.jenkins/workspace/inetBankingV1_Maven"/>
+    <property name="maven3.interceptor.common" value="/Users/billalyahiaoui/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar"/>
+    <property name="java.specification.version" value="9"/>
+    <property name="USER" value="billalyahiaoui"/>
+  </properties>
+  <testcase name="loginTest" classname="testCases.TC_LoiginTest_001" time="1.789"/>
+  <testcase name="loginDDT" classname="testCases.TC_LoginDDT_002" time="7.456"/>
+  <testcase name="loginDDT" classname="testCases.TC_LoginDDT_002" time="3.983">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:29)
+</failure>
+    <system-out><![CDATA[[main] INFO  ebanking  - username is provided
+[main] INFO  ebanking  - password is provided
+]]></system-out>
+  </testcase>
+  <testcase name="loginDDT" classname="testCases.TC_LoginDDT_002" time="3.897">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:29)
+</failure>
+    <system-out><![CDATA[[main] INFO  ebanking  - username is provided
+[main] INFO  ebanking  - password is provided
+]]></system-out>
+  </testcase>
+  <testcase name="loginDDT" classname="testCases.TC_LoginDDT_002" time="3.938">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:29)
+</failure>
+    <system-out><![CDATA[[main] INFO  ebanking  - username is provided
+[main] INFO  ebanking  - password is provided
+]]></system-out>
+  </testcase>
+  <testcase name="loginDDT" classname="testCases.TC_LoginDDT_002" time="0.01">
+    <failure message="Keys to send should be a not null CharSequence" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:19)
+</failure>
+  </testcase>
+  <testcase name="AddNewCustomer" classname="testCases.TC_AddCustomerTest_003" time="12.199"/>
+</testsuite>

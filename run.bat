@@ -1,0 +1,2 @@
+cd /Users/billalyahiaoui/IdeaProjects/inetBankingV1_FrameWork
+mvn clean install

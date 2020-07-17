@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 43.482 sec <<< FAILURE! - in TestSuite
+loginDDT(testCases.TC_LoginDDT_002)  Time elapsed: 3.983 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:29)
+
+loginDDT(testCases.TC_LoginDDT_002)  Time elapsed: 3.897 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:29)
+
+loginDDT(testCases.TC_LoginDDT_002)  Time elapsed: 3.938 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:29)
+
+loginDDT(testCases.TC_LoginDDT_002)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:19)
+
